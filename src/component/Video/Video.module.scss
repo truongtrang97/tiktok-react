@@ -1,0 +1,92 @@
+.wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+}
+.avatar {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.content_info {
+}
+.fullname {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    margin-right: 4px;
+}
+.nickname {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+}
+.label {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+.follow_btn {
+    padding: 2px 0px;
+}
+.label_music {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.2;
+    color: rgb(22, 24, 35);
+    margin-left: 6px;
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.video_content {
+    display: flex;
+    flex-direction: row;
+}
+.video {
+    height: 545px;
+    width: 305px;
+    border-radius: 10px;
+}
+.list_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+.round_icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(22, 24, 35, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0 6px;
+}
+.value {
+    color: rgba(22, 24, 35, 0.75);
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+}
+.icon_video {
+    font-size: 2rem;
+}
+
+.wrapper_video {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(0, 0%, 90%);
+    scroll-snap-align: start;
+    max-width: 600px;
+}
